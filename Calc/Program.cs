@@ -20,6 +20,7 @@ namespace Calc
 
             String userToJson = Json.Net.JsonNet.Serialize(testUser);
             Console.WriteLine(userToJson);
+			Console.ReadLine();
         }
 
         public static int ConvertToKelvin(int value)
