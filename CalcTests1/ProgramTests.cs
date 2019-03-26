@@ -15,7 +15,7 @@ namespace Calc.Tests
         public void ConvertToKelvinTest()
         {
             Assert.AreEqual(283, Program.ConvertToKelvin(10));
-            Assert.AreEqual(100, Program.ConvertToKelvin(15));
+     //       Assert.AreEqual(100, Program.ConvertToKelvin(15));
         }
 
         [TestMethod()]
