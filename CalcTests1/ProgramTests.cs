@@ -22,6 +22,8 @@ namespace Calc.Tests
         public void ConvertToFahrenheitTest()
         {
             Assert.AreEqual(50, Program.ConvertToFahrenheit(10));
+                        Assert.AreNotEqual(283, 283);
+            Assert.IsNotNull(null);
         }
 
     }
