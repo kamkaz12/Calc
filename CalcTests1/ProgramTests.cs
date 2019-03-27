@@ -23,7 +23,7 @@ namespace Calc.Tests
         {
             Assert.AreEqual(50, Program.ConvertToFahrenheit(10));
                         Assert.AreNotEqual(283, 283);
-            Assert.IsNotNull(null);
+            Assert.AreEqual(100, Program.ConvertToKelvin(15));
         }
 
     }
